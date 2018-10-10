@@ -4,7 +4,7 @@
       <div class="card mb-2" id="cardContainer">
         <img class="card-img-top">
           <agm-map [latitude]="19.4284706" [longitude]="-99.1276627" [zoom]="15">
-            <agm-marker *ngFor="let marker of stores" [latitude]= "marker.Coordinates.lat" [longitude]= "marker.Coordinates.lng">
+            <agm-marker *ngFor="let marker of stores" [latitude]= "marker.Coordinates.lat" [longitude]= "marker.Coordinates.lng" (markerClick)>
               <agm-info-window>
                 <p><strong>Nombre:</strong> {{marker.Name}}</p><p><strong>Dirección:</strong> {{marker.Address}}</p>
               </agm-info-window>

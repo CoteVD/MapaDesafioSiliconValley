@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class CardComponent implements OnInit {
   public stores: String;
 
+  title: String;
+
   constructor() {}
 
   ngOnInit() {
