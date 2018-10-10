@@ -25,5 +25,11 @@ export class CardComponent implements OnInit {
     this.arrayFav.push(name);
   }
 
-  delete() {}
+  delete(tiendas: String) {
+    const array = this.arrayFav;
+    const index = this.arrayFav.indexOf(tiendas);
+    if (index > -1) {
+      array.splice(index, 1);
+    }
+  }
 }
