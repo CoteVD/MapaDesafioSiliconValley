@@ -6,9 +6,9 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./card.component.css']
 })
 export class CardComponent implements OnInit {
-  public stores: String;
-
+  stores: String;
   title: String;
+  arrayFav: any = [];
 
   constructor() {}
 
@@ -21,4 +21,9 @@ export class CardComponent implements OnInit {
     });
   }
 
+  add(name: string) {
+    this.arrayFav.push(name);
+  }
+
+  delete() {}
 }
