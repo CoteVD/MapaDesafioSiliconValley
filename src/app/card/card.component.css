@@ -1,8 +1,9 @@
 #cardContainer {
     width: 100%;
+    background-color: black
 }
 
-.card-body {
+.card-title {
     background-color: black;
     color: white;
 }
@@ -23,4 +24,6 @@ agm-map {
 .list-group-item {
     background-color: crimson;
     color:white;
+    width: 18rem;
+    border-radius: 3px;
 }
