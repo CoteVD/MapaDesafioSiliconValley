@@ -1,0 +1,29 @@
+#cardContainer {
+    width: 100%;
+    background-color: black
+}
+
+.card-title {
+    background-color: black;
+    color: white;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+}
+
+.btn:hover {
+    background-color: rgb(255, 96, 128);
+}
+
+agm-map {
+    height: 300px;
+}
+
+.list-group-item {
+    background-color: crimson;
+    color:white;
+    width: 18rem;
+    border-radius: 3px;
+}
