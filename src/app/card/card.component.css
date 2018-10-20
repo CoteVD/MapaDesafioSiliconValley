@@ -23,7 +23,10 @@ agm-map {
 
 .list-group-item {
     background-color: crimson;
-    color:white;
-    width: 18rem;
+    color: white;
+    width: 30rem;
     border-radius: 3px;
+    padding-left: 1rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
 }
